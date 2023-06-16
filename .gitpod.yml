@@ -1,0 +1,10 @@
+---
+# For more details, please see https://www.gitpod.io/docs/references/gitpod-yml
+
+tasks:
+  - init: 
+      curl -L https://foundry.paradigm.xyz | bash
+    command: |
+      foundryup
+      cd simple_storage
+      
